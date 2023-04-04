@@ -14,7 +14,7 @@
 
 [[code]](./Chinamap)
 
-[[html]](./Chinamap/output/covid.html)
+[[html]](https://novaglow646.github.io/CSprogramming_HW/Chinamap/output/covid.html)
 
 #### 世界人口地图
 
@@ -22,7 +22,7 @@
 
 [[code]](./worldmap)
 
-[[html]](./worldmap/output/世界人口.html)
+[[html]](https://novaglow646.github.io/CSprogramming_HW/worldmap/output/世界人口.html)
 
 #### 组合图表-机器学习中的分布外泛化指标
 
@@ -30,5 +30,5 @@
 
 [[code]](./combined_chart)
 
-[[html]](./combined_chart/output/OOD_metrics.html)
+[[html]](https://novaglow646.github.io/CSprogramming_HW/combined_chart/output/OOD_metrics.html)
 
