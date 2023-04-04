@@ -6,7 +6,7 @@
 
 [[code]](./wordcloud/)
 
-[[html]](./wordcloud/output/)
+[[html]](NOVAglow646.github.io/wordcloud/output/wordcloud_rd_file.html)
 
 #### 中国新冠疫情地图
 
