@@ -26,6 +26,8 @@
 
 #### 组合图表-机器学习中的分布外泛化指标
 
+模拟了机器学习中的分布外泛化问题中测试集准确率和验证集准确率以及Efficient score的关系，并计算了测试集准确率和这两个分布内指标的相关系数。
+
 [[code]](./combined_chart)
 
 [[html]](./combined_chart/output/OOD_metrics.html)
