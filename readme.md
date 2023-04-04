@@ -26,7 +26,7 @@
 
 #### 组合图表-机器学习中的分布外泛化指标
 
-[[code]](.combined_chart)
+[[code]](./combined_chart)
 
-[[html]](.combined_chart/output/OOD_metrics.html)
+[[html]](./combined_chart/output/OOD_metrics.html)
 
