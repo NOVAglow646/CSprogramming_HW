@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>计算机科学与编程入门作业</title>
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>计算机科学与编程入门作业</h1>
+</div>
+<td align="left"><p>王启迅 1900012925<br />
+  <td align="left"><p>信息科学技术学院<br />
+
+
+<p>作业的源码请见<a href="https://github.com/NOVAglow646/CSprogramming_HW">[项目仓库]</a>
+<br />
+</td></tr></table>
+<h2>第一次作业</h2>
+
+<p>
+<h3>词频统计</h3> 
+<a href="https://novaglow646.github.io/CSprogramming_HW/wordcloud/output/wordcloud_rd_file.html">[网页]</a>
+<h5>内容说明</h5>
+  分析了刘慈欣长篇小说《球状闪电》中非人名/地名的名词词频。
+<h5>代码说明</h5>
+BL_pseg.py统计非人名/地名的名词词频并生成csv文件。
+wordcloud.py读取csv并产生词云HTML文件。
+输出结果在./output/wordcloud_rd_file.html。</p>
+  
+<p><h3>中国新冠疫情地图</h3>
+  <a href="https://novaglow646.github.io/CSprogramming_HW/Chinamap/output/covid.html">[网页]</a>
+  <h5>内容说明</h5>
+  制作了我国2022年12月10-14日的全国疫情分布数据。
+  <h5>代码说明</h5>
+  Covid19China.py 读取疫情数据文件DXYArea.csv（下载自https://github.com/BlankerL/DXY-COVID-19-Data/releases/tag/2023.04.02 ）并生成HTML文件，每个省份都标注了当前的确诊人数。
+HTML文件：./output/covid.html
+ </p>
+
+  
+  <p> <h3>世界人口地图</h3>
+    <a href="https://novaglow646.github.io/CSprogramming_HW/worldmap/output/世界人口.html">[网页]</a>
+  <h5>内容说明</h5>
+  制作了2021年世界各国人口数据（<a href="https://landscan.ornl.gov">数据来源</a>）。
+  <h5>代码说明</h5>
+  save_json.py用于生成国名中英文对照文件contry.json。population读取1960-2021年全球各国人数量.xlsx（中文国名）和country.json（中英文国名对照）并产生HTML文件（位于./output/世界人口.html）。
+  </p>
+  
+  
+
+  
+  <p><h3>组合图表-机器学习中的分布外泛化指标</h3>
+    <a href="https://novaglow646.github.io/CSprogramming_HW/combined_chart/output/OOD_metrics.html">[网页]</a>
+    <h5>内容说明</h5>
+  模拟了机器学习中的分布外泛化问题中测试集准确率和验证集准确率以及Efficient score的关系，并计算了测试集准确率和这两个分布内指标的相关系数。
+  <h5>代码说明</h5>
+  OOD_metric.py生成模拟数据，并输出结果到./output/OOD_metrics.html。
+  </p>
+  
+  
+
+
+
+</div>
+</div>
+</div>
+</body>
+</html>
